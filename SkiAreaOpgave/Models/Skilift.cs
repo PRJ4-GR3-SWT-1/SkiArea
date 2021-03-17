@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SkiAreaOpgave.Models
 {
-    class Skilift
+    public class Skilift
     {
         private int id;
         public string to;

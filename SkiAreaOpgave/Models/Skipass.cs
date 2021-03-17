@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SkiAreaOpgave.Models
 {
-    class Skipass
+    public class Skipass
     {
         public int SkipassId { get; set; }
         public double Price { get; set; }
