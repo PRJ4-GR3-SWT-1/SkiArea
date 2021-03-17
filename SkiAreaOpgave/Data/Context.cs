@@ -25,11 +25,11 @@ namespace SkiAreaOpgave.Data
         {
             // SLOPE
             modelBuilder.Entity<Slope>().HasKey(s => s.Name);
-            modelBuilder.Entity<Slope>(s => s.HasCheckConstraint("constraint_slope",
-                "`SlopeCat` = 'Green'" +
-                "or `SlopeCat` = 'Blue' " +
-                "or `SlopeCat` = 'Red' " +
-                "or `SlopeCat` = 'Black'"));
+         /*   modelBuilder.Entity<Slope>(s => s.HasCheckConstraint("constraint_slope",
+                "'SlopeCat' = 'Green'" +
+                " or 'SlopeCat' = 'Blue' " +
+                " or 'SlopeCat' = 'Red' " +
+                " or 'SlopeCat' = 'Black'")); */
 
             // AREA
             modelBuilder.Entity<Area>().HasKey(a => a.Name);

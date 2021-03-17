@@ -10,7 +10,7 @@ using SkiAreaOpgave.Data;
 namespace SkiAreaOpgave.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20210317103138_Initial")]
+    [Migration("20210317111331_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
