@@ -7,6 +7,12 @@ using System.Threading.Tasks;
 namespace SkiAreaOpgave.Models
 {
     class Guest
+
     {
+        private int GuestID { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public Skipass pass { get; set; }
+
     }
 }
