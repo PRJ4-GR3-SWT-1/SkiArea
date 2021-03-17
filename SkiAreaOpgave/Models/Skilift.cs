@@ -8,11 +8,11 @@ namespace SkiAreaOpgave.Models
 {
     public class Skilift
     {
-        private int id;
-        public string to;
-        public string from;
-        public float speed;
-        public int capacity;
-        public Area area;
+        public int SkiliftId { get; set; }
+        public string to { get; set; }
+        public string from { get; set; }
+        public float speed { get; set; }
+        public int capacity { get; set; }
+        public Area area { get; set; }
     }
 }

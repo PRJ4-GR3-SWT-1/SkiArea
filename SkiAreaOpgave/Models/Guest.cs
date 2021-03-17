@@ -9,7 +9,7 @@ namespace SkiAreaOpgave.Models
     public class Guest
 
     {
-        private int GuestID { get; set; }
+        public int GuestID { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
         public Skipass pass { get; set; }
