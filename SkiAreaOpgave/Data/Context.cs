@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using SkiAreaOpgave.Models;
+
 //using Microsoft.EntityFrameworkCore.Extensions;
 
 
@@ -20,6 +22,11 @@ namespace SkiAreaOpgave.Data
         {
 
         }
+        public DbSet<Slope> Slopes { get; set; }
+        public DbSet<Area> Areas { get; set; }
+        public DbSet<Skilift> Skilifts { get; set; }
+        public DbSet<Skipass> Skipasses { get; set; }
+        public DbSet<Guest> Guests { get; set; }
 
     }
 }
