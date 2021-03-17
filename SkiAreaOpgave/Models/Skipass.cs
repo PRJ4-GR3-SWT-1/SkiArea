@@ -13,5 +13,6 @@ namespace SkiAreaOpgave.Models
         public DateTime ValidFrom { get; set; }
         public DateTime ValidTo { get; set; }
         public List<Area> AreaList { get; set; }
+        public Guest Guest { get; set; }
     }
 }
